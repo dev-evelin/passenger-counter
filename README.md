@@ -16,7 +16,7 @@ First project for Scrimba's Front-End Developer Career Path where we built a pas
 
 ## Preview
 
-<img src="img/passengercounter_figma.jpg">
+<img src="passengercounter_figma.jpg">
 
 ## Connect with me::
 
