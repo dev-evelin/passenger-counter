@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/background.png");
+  background-image: url("background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center right;
@@ -85,7 +85,7 @@ a {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background-image: url(img/background_ipad.png);
+    background-image: url(background_ipad.png);
   }
 }
 
@@ -109,7 +109,7 @@ a {
     margin-top: 3px;
   }
   body {
-    background-image: url(img/background_mobile.png);
+    background-image: url(background_mobile.png);
     margin-top: -130px;
   }
 
