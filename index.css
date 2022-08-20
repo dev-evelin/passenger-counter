@@ -1,0 +1,119 @@
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center right;
+  background-size: cover;
+  font-family: "Concert One", cursive;
+  font-weight: bold;
+  text-align: center;
+  color: #5775cd;
+}
+
+.main-container {
+  border: 1px solid rgb(200, 196, 196);
+  border-radius: 5px;
+  width: 400px;
+  height: 450px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 20px gray;
+  font-family: "Concert One", cursive;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgb(6, 191, 233);
+  margin-bottom: 10px;
+}
+
+#save-btn {
+  background: rgb(6, 233, 59);
+  margin-bottom: 10px;
+}
+
+#reset-btn {
+  background: rgb(255, 138, 21);
+  margin-bottom: 10px;
+}
+
+#increment-btn:hover,
+#save-btn:hover {
+  transform: scale(1.05);
+}
+
+#total-el {
+  border: 1px gray;
+  border-bottom: none;
+  border-radius: 5px;
+  width: 90px;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0 10px gray;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+a {
+  color: #5775cd;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-image: url(img/background_ipad.png);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-container {
+    border: 1px solid rgb(200, 196, 196);
+    border-radius: 5px;
+    width: 200px;
+    height: 160px;
+    padding: 5px;
+  }
+  h1 {
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 20px;
+  }
+
+  #save-btn,
+  #reset-btn {
+    margin-top: 3px;
+  }
+  body {
+    background-image: url(img/background_mobile.png);
+    margin-top: -130px;
+  }
+
+  a {
+    color: #5775cd;
+  }
+}
